@@ -1,2 +1,7 @@
-/* This is a file inserted to keep the learn IDE browser happy */
-const testVar = {}
+// index.js
+function someFunction() {
+    return 'someValue';
+}
+
+// Export the function to make it accessible in the test file
+module.exports = { someFunction };
